@@ -7,7 +7,7 @@ def home():
 
 @app.route('/student')
 def get_student():
-return jsonify({
+  return jsonify({
 "name": "Your Name",
 "grade": 10,
 "section": "Zechariah"
